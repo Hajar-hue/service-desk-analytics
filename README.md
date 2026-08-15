@@ -22,13 +22,19 @@ Python, Streamlit, Pandas, Altair, Google Gemini API, ReportLab, and OpenPyXL.
 ## Data privacy
 
 The AI features use aggregated service desk metrics. Individual ticket records are not sent to Gemini.
-
 ## Run locally
 
 Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
 
 ## Live app
 
