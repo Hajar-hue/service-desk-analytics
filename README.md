@@ -1,80 +1,35 @@
-\# AI Data Analyst – Service Desk Analytics
+# Service Desk Analytics
 
+A Streamlit dashboard for analyzing IT Service Desk data from CSV and Excel files.
 
+The project focuses on SLA performance, ticket trends, regional performance, agent activity, and year-to-date comparisons. It also includes Gemini-powered features for asking questions about the data and generating an executive summary.
 
-A data analytics application for exploring IT Service Desk performance and supporting operational decision-making.
+## What it includes
 
+- SLA compliance and violation tracking
+- Monthly ticket trends
+- Ticket analysis by priority and region
+- Agent performance metrics
+- 2024 vs 2025 YTD comparison
+- Automatic performance insights
+- Ask Your Data using Gemini
+- Executive brief with PDF export
 
+## Built with
 
-The application transforms uploaded CSV or Excel service desk data into an interactive dashboard with performance metrics, operational insights, year-to-date comparisons, and AI-assisted management reporting.
+Python, Streamlit, Pandas, Altair, Google Gemini API, ReportLab, and OpenPyXL.
 
+## Data privacy
 
+The AI features use aggregated service desk metrics. Individual ticket records are not sent to Gemini.
 
-\## Features
+## Run locally
 
-
-
-\- Service Desk performance overview
-
-\- SLA compliance and violation monitoring
-
-\- Monthly ticket trend analysis
-
-\- Priority and regional analysis
-
-\- Agent performance analysis
-
-\- Year-to-date performance comparison
-
-\- Automatic operational insights
-
-\- AI-assisted data analysis
-
-\- Executive brief generation
-
-\- PDF export for management reporting
-
-
-
-\## Technology Stack
-
-
-
-\- Python
-
-\- Streamlit
-
-\- Pandas
-
-\- NumPy
-
-\- Altair
-
-\- Google Gemini API
-
-\- ReportLab
-
-\- OpenPyXL
-
-
-
-\## Data Privacy
-
-
-
-Individual ticket records are processed locally by the application. AI-assisted features use aggregated statistics rather than sending individual ticket records to the AI model.
-
-
-
-\## Running the Application
-
-
-
-Install the required packages:
-
-
+Install the dependencies:
 
 ```bash
-
 pip install -r requirements.txt
 
+## Live app
+
+[Open the Service Desk Analytics dashboard](https://service-desk-analytics-3gmzrqgog5rxnnmu6fvzru.streamlit.app/)
