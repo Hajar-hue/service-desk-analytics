@@ -38,4 +38,4 @@ streamlit run app.py
 
 ## Live app
 
-[Open the Service Desk Analytics dashboard](https://service-desk-analytics-3gmzrqgog5rxnnmu6fvzru.streamlit.app/)
+[Open the Service Desk Analytics dashboard](https://service-desk-analytics-3gmzrqqog5rxnnmu6fvzru.streamlit.app/)
